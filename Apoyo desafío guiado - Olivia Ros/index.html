@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    <!--navbar dark y bg dark sirven para cambiar color a la barra de arriba
+         sticky-top es para fijar la barra de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.png" alt="">
+          </a>
+          <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--ms-auto hace q las barrras se desplacen a la derecha en la parte de arriba-->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--esto sirve para hacer contenedores
+<section>
+    <div class="container" style="background-color: black; color: white;">
+        <h2>Soy un container</h2>
+        <p> a b c</p>-->
+<Header style="color: white;" class="text-end">
+    <div class="container">
+        <!--my-3 separa la barra de la imagen / fw-bold es negrita
+        w-50 es el marco de las letras, ms-auto sirve para margen izquierdo automatico-->
+        <h1 class="display-1 fw-bold my-3 w-75 ms-auto">Comidas del fin del mundo</h1>
+        <p class="w-50 ms-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, esse suscipit. Laborum incidunt, hic ducimus fugit atque ullam amet suscipit? Hic iste molestiae nihil at animi repellat exercitationem officia ut?</p>
+        <button type="button" class="btn btn-outline-info text-light">Trabajos</button>
+        <button type="button" class="btn btn-info text-light">Contactos</button>
+    </div>
+</Header>
+
+<section class="container text-center my-5">
+    <!--display-1,2,3,4,5,6 etc es el tamano de letras-->
+    <h2 class="fw-bold display-4">Acerca de mi</h2>
+    <p class="my-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, enim sunt cum ipsum id dignissimos deleniti possimus itaque modi qui, ipsa veritatis ea, quae aut nobis in consectetur? In, quam?</p>
+        
+    <div class="row">
+        <div class="col-xl-4">
+            <i class="fa-solid fa-camera fa-3x mb-4"></i>
+            <h3>Fotografa de comida</h3>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, nostrum, impedit illum aut, eveniet molestias corporis dolores magni perferendis eaque unde suscipit? Cum quis iure vitae. Expedita quos harum maxime?</p>
+        </div>
+
+        <div class="col-xl-4">
+            <i class="fa-solid fa-bullhorn fa-3x  mb-4"></i>
+            <h3>Critica culinaria</h3>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, fuga ex sapiente rem dolores vel? Modi dolorum in consectetur ex, quo amet facere distinctio asperiores aperiam sit voluptates officia soluta!</p>
+        </div>
+
+        <div class="col-xl-4">
+            <i class="fa-regular fa-map fa-3x  mb-4"></i>
+            <h3>Bloguera de viaje</h3>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facilis accusamus voluptas, sapiente repellendus amet minima inventore. Laudantium deleniti similique eligendi. Delectus et quas perferendis rerum sint, maxime impedit tempore.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid text-light bg-info my-5 p-5 section-work text-center">
+    <h2 class="text-center display-3 fw-bold">Mis trabajos</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 my-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/card-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-outline-info">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-4 my-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/card-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-outline-info">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-4 my-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/card-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-outline-info">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="text-center fw-bold display-3">Contactame</h2>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo neque necessitatibus earum totam vitae mollitia minus obcaecati magni, iusto, aliquam corporis porro sint iste laboriosam ad itaque delectus voluptatum repellat.</p>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2" type="button">Enviar</button>
+      </div>
+</section>
+
+<footer class="bg-dark text-light text-center p-3 mt-3">
+    <p>Olivia Ros 2019. Todos los derechos reservados.</p>
+</footer>
+    
+<!--1 scrip es de iconos
+2 y 3 scrip son para trabajar con bootstrap-->
+    <script src="https://kit.fontawesome.com/83ac622e1d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
